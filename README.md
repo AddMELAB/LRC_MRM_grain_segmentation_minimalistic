@@ -1,5 +1,5 @@
 # LRC_MRM_grain_segmentation_minimalistic
-By Mallory Wittwer, August 2021
+@Mallory Wittwer, August 2021
 
 Minimalistic implementation of the LRC-MRM grain segmentation algorithm (command-line implementation).
 

@@ -10,8 +10,9 @@ To test the program, clone the repository in a local folder, then navigate to th
 After a few minutes, the program should produce a segmented map of the DRM datsaet.
 
 Command-line arguments:
-   -d / --data : (required) DRM dataset file. It should be a 4D matrix of type .npy (resolution X, resolution Y, thetas, phis).
-   -c / --cps : (optional) Number of NMF components. Default: 50.
-   -s / --ssize : (optional) Sampling size. Default: 5000.
+
+   * -d / --data : (required) DRM dataset file. It should be a 4D matrix of type .npy (resolution X, resolution Y, thetas, phis).
+   * -c / --cps : (optional) Number of NMF components. Default: 50.
+   * -s / --ssize : (optional) Sampling size. Default: 5000.
 
 For any questions, please contact me at mallory.wittwer@gmail.com.

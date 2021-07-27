@@ -8,7 +8,7 @@ We recommend installing Python > 3.6 and the dependencies in `requirements.txt` 
 
 This will create an environment with the name *drm_ml*. To activate that environment, use:
 
-`conda activate drm_ml`
+`conda activate grain_seg-env`
 
 We tested the code using the following dependencies:
 

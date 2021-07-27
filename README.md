@@ -25,7 +25,7 @@ We tested the code using the following dependencies:
 
 To execute the program, clone the repository in a local folder, navigate to this folder, and run:
 
-`python main.py -d drm_exmaple.npy`
+`python main.py -d drm_example.npy`
 
 The program should produce a segmented map of the input DRM datsaet in a few minutes for datasets with resolution < 400 x 400 px.
 

@@ -2,11 +2,11 @@ Implementation of the LRC-MRM grain segmentation algorithm; executable from a CL
 
 ## Installation
 
-We recommend installing Python > 3.6 and the dependencies in `requirements.txt` in a fresh environment. Alternatively, one can execute the code in the provided virtual environement **environment.yml** using [conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (to install Anaconda: see [here](https://www.anaconda.com/)). To create the environement, use:
+We recommend installing Python > 3.6 and the dependencies in `requirements.txt` in a fresh environment. Alternatively, execute the code in the provided **environment.yml** using [conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (to install Anaconda: see [here](https://www.anaconda.com/)). To create the environement, use:
 
 `conda env create -f environment.yml`
 
-This will create an environment with the name *drm_ml*. To activate that environment, use:
+The command will create an environment with the name *drm_ml*. To activate it, use:
 
 `conda activate grain_seg-env`
 
@@ -27,7 +27,7 @@ To execute the program, clone the repository in a local folder, navigate to this
 
 `python main.py -d drm_example.npy`
 
-The program should produce a segmented map of the input DRM datsaet in a few minutes for datasets with resolution < 400 x 400 px.
+The program should produce a segmented map of the input DRM datsaet in a few minutes, at least for datasets with resolution < 400 x 400 px. For bigger datasets, it the algorithm can take a long time to run!
 
 ## Command-line arguments
 
